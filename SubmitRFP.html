@@ -141,50 +141,47 @@
 </p>
       </div>
 
-      <div class="row">
-
-
+      <div class="row justify-content-center">
         <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
           <form action="forms/contact.php" method="post" role="form" class="php-email-form">
             <div class="row">
               <div class="form-group col-md-6">
-                <label for="name">Title</label>
-                <input type="text" name="name" placeholder="Your name.." class="form-control" id="name" required>
+                <label for="title">Title</label>
+                <input type="text" name="title" placeholder="" class="form-control" id="title" required>
               </div>
               <div class="form-group col-md-6">
-                <label for="name">Full Name</label>
-                <input type="email" class="form-control" placeholder="Mail" name="email" id="email" required>
+                <label for="full-name">Full Name</label>
+                <input type="text" class="form-control" placeholder="" name="full-name" id="full-name" required>
               </div>
             </div>
             <div class="form-group">
-              <label for="name">Position/Job title</label>
-              <input type="text" class="form-control" placeholder="Your Company name.." name="company name" id="company name" required>
+              <label for="position">Position-Job Title</label>
+              <input type="text" class="form-control" placeholder="" name="position" id="position" required>
             </div>
             <div class="form-group">
-              <label for="name">Business phone</label>
-              <input type="text" class="form-control" placeholder="Your Business name.." name="Business phone" id="Business phone" required>
+              <label for="business-phone">Business Phone</label>
+              <input type="text" class="form-control" placeholder="" name="business-phone" id="business-phone" required>
             </div>
             <div class="form-group">
-              <label for="name">Email address</label>
-              <input type="text" class="form-control" placeholder="anyone have any queries?" name="Business phone" id="Business phone" required>
+              <label for="email">Email Address</label>
+              <input type="email" class="form-control" placeholder="" name="email" id="email" required>
             </div>
             <div class="form-group">
-                <label for="name">Country/location</label>
-                <input type="text" class="form-control" placeholder="anyone have any queries?" name="Business phone" id="Business phone" required>
-              </div>
-              <div class="form-group">
-                <label for="name">Company/Organization name</label>
-                <input type="text" class="form-control" placeholder="anyone have any queries?" name="Business phone" id="Business phone" required>
-              </div>
-              <div class="form-group">
-                <label for="name">Yearly revenue</label>
-                <input type="text" class="form-control" placeholder="anyone have any queries?" name="Business phone" id="Business phone" required>
-              </div>
-            <div class="form-group">
-              <label for="name">Comments and/or instructions</label>
-              <textarea class="form-control"  placeholder="............" name="message" rows="10" required></textarea>
+              <label for="country">Country-Location</label>
+              <input type="text" class="form-control" placeholder="" name="country" id="country" required>
             </div>
-            
+            <div class="form-group">
+              <label for="company">Company-Oganization Name</label>
+              <input type="text" class="form-control" placeholder="" name="company" id="company" required>
+            </div>
+            <div class="form-group">
+              <label for="revenue">Yearly Revenue</label>
+              <input type="text" class="form-control" placeholder="" name="revenue" id="revenue" required>
+            </div>
+            <div class="form-group">
+              <label for="comments">Comments & Instructions</label>
+              <textarea class="form-control" placeholder="" name="comments" id="comments" rows="10" required></textarea>
+            </div>
             <div class="my-3">
               <div class="loading">Loading</div>
               <div class="error-message"></div>
@@ -193,8 +190,8 @@
             <div class="text-center"><button type="submit">Send Message</button></div>
           </form>
         </div>
-
       </div>
+      
 
     </div>
   </section><!-- End Contact Section -->
